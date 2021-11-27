@@ -1,0 +1,105 @@
+/*
+	Modelo de caixa
+
+	Padding:  espaçamento interno;
+	margin:  espaçamento externo;
+
+.conteudo {
+	border: 1px solid red;
+	padding-top : 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	width: 150px;
+
+	padding: 20px;
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin: 10px;
+}
+
+.conteudo2 {
+	margin: 50px;
+	width: 150px;
+	border: 1px solid red ;
+
+}
+	Se a classe conteudo tem margin 10px
+	e a classe conteudo2 tem margin 50px
+	A margin que será aplicada será sempre a maior
+	Ou seja, a distância, nesse exemplo, é 50px
+
+*/
+/*#noticia {
+	background: #f9f9f9;
+	border: 1px solid gray;
+	padding: 10px;
+}
+
+h2{
+	margin: 0px;
+}*/
+
+/*.conteudo {
+	background: blue;
+	border: 1px solid gray;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 15px;
+}*/
+
+/*.conteudo1 {
+	background: red;
+	border: 1px solid gray;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 10px;
+}*/
+
+/*.clear {*/
+	/*left, right, both, none*/
+	/*clear: left;*/
+	/*Clear:  serve para limpar o fluxo flutuante.*/
+/*}*/
+
+/*#principal {
+	border: 5px solid red;
+	background: greenyellow;
+}*/
+
+body {
+	background-color: #f4f4f4;
+}
+
+#principal {
+	width: 920px;
+	/*border: 1px solid red;*/
+}
+
+.clear {
+	clear: both;
+}
+
+.imagem-galeria {
+	background: white;	
+	width: 265px;
+	height: 265px;
+	padding: 10px;
+	float: left;
+	margin: 10px;
+}
+
+.noticia {
+	background: #e5e5e5;
+	padding: 10px;
+	width: 280px;
+	margin: 7px;
+	float: left;
+}
+
+
